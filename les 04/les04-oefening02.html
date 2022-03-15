@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 04 - Oefening 02</title>
+</head>
+<body>
+    <form action="registreren.php" method="get">
+        <div>
+            <label for="voornaam">Voornaam:
+                <input id="voornaam" name="voornaam" type="text" placeholder="Stijn">
+            </label>
+        </div>
+        <div>
+            <label for="familienaam">Familienaam:
+                <input id="familienaam" name="familienaam" type="text" placeholder="Lenaerts">
+            </label>
+        </div>
+        <div>
+            <label for="gebruikersnaam">Gerbuikersnaam:
+                <input id="gebruikersnaam" name="gebruikersnaam" type="email" placeholder="mail@thomasmore.be" required>
+            </label>
+        </div>
+        <div>
+            <label for="nickname">Nickname:
+                <input id="nickname" name="nickname" type="text" minlength="5" maxlength="15">
+            </label>
+        </div>   
+        <div>
+            <label for="pasword">Paswoord:
+                <input id="pasword" name="pasword" type="password" required>
+            </label>
+        </div>
+        <div>
+            <label for="herhaal_pasword">Herhaal paswoord:
+                <input id="herhaal_pasword" name="herhaal_pasword" type="password" required>
+            </label>
+        </div>                   
+        <div>
+            <input type="submit" value="Registreren" >
+        </div>
+    </form>
+</body>
+</html>
