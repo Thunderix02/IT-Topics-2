@@ -1,0 +1,97 @@
+.maincontents {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: auto;
+
+}
+
+
+
+#m1 {
+flex: 1;
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: blue;  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+nav li {
+  
+  float: left;
+
+  }
+  
+nav li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+    display: block;
+  }
+
+  nav li a:hover {
+    background-color: darkblue;
+    color: white;
+  }
+
+  html, body {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  footer {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.right {
+  text-align: right
+}
+
+#button {
+  color: blue;
+  border-color: blue;
+}
+
+label, input {
+  display: block;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+
+input {
+  width:235px;
+}
+
+#myphoto {
+  margin-top: 50px;
+}
+
+.titel {
+  margin-top: 20px;
+}

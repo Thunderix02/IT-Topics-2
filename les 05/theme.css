@@ -2,15 +2,16 @@ div {
     margin: auto;
     background-color: #fff;
     width: 70%;
-
 }
 
 body {
     background-color: #e6e6e6;
+    margin: auto;
 }
 
-main {
+ main {
     padding-left: 10px;
+    height: auto;
 }
 
 .container {
@@ -34,6 +35,7 @@ nav ul {
 
   }
   
+
   nav li a {
     color: white;
     text-align: center;
@@ -64,4 +66,20 @@ nav ul {
 
   #dj {
     float: right;
+  }
+
+  #koptelefoon {
+    float: right;
+    width: 250px;
+    padding: 25px;
+  }
+
+  #soundcloud {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: #e6e6e6;
+    background-color: #f04c25;
+    padding: 14px 50px;
+    width: 250px;
   }

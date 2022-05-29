@@ -1,0 +1,38 @@
+.compass {
+    background: url("kompas.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.label {
+    font-family: 'Indie FLower', cursive;
+    font-size: 28px;
+    color: white
+}
+
+.noord {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+}
+
+.oost {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+.zuid {
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+}
+
+.west {
+    position: absolute;
+    bottom: 50%;
+    right: 0%;
+}

@@ -1,0 +1,41 @@
+header {
+    grid-area: header;
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+aside {
+    grid-area: aside;
+    height: 200px;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+main {
+    grid-area: main;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+footer {
+    grid-area: footer;
+    height: 50px;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-areas: "header header" "aside main" "footer footer";
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 250px auto 75px ;
+}
